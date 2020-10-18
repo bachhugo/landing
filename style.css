@@ -1,0 +1,88 @@
+body{
+  background:white;
+  color: black;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+}
+h1 {
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #317DC1;
+  text-align: center;
+}
+.hero{
+  height: 70vh;
+  text-align: center;
+  padding: 100px 0px;
+  background-image:url("images/bg.jpg");
+  background-size: cover;
+  background-position: bottom;}
+.hero h1 {
+  color: #317DC1;
+  font-size: 55px;
+}
+.hero p {
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+.btn-blue {
+  color: white;
+  background: #317DC1;
+  box-shadow: 4px 4px 10px rgb(214, 212, 212);
+  border-radius: 10px;
+ 
+  padding: 10px 15px;
+}
+.btn-blue:hover {
+  text-decoration: none;
+  background: #3b8bd1;
+  color: white;
+}
+.container  {
+padding-top: 40px;
+padding-bottom: 60px;
+background-color: white;
+}
+.card-white {
+  background-color: #f0f0f0;
+  border-radius: 7px;
+  text-align: center;
+  box-shadow: 2px 2px 0px rgb(163, 163, 163);
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.card-white img {
+  margin-bottom: 15px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 10px;
+}
+.footer {
+  text-align: center;
+  background-color:#ff836c;
+  padding: 24px;
+  color: white;
+}
+.footer a {
+  color: white;
+  font-size: 35px;
+}
+.footer a:hover {
+  color: #317DC1;
+}
+
+
+
